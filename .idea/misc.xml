@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kleber_Programador/AndroidStudioProjects/Implementandoaclassificaodocampeonato/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/kleber_Programador/AndroidStudioProjects/Implementandoaclassificaodocampeonato/app/src/main/res/layout/fragment_lista_br_a2022.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/kleber_Programador/AndroidStudioProjects/Implementandoaclassificaodocampeonato/app/src/main/res/layout/list_times_campeonato_principal_adapter.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/kleber_Programador/AndroidStudioProjects/Implementandoaclassificaodocampeonato/app/src/main/res/layout/tela_classificacao_ingles_a.xml" value="2.5142857142857142" />
+        <entry key="..\:/Users/kleber_Programador/AndroidStudioProjects/Implementandoaclassificaodocampeonato/app/src/main/res/layout/tela_lista_times.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
