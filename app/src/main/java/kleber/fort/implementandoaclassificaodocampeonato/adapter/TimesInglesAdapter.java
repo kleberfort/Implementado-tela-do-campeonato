@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+import kleber.fort.implementandoaclassificaodocampeonato.databinding.TelaClassificacaoInglesABinding;
 import kleber.fort.implementandoaclassificaodocampeonato.databinding.TelaListaTimesBinding;
 import kleber.fort.implementandoaclassificaodocampeonato.model.ClassificaoTimes;
 
@@ -28,7 +29,7 @@ public class TimesInglesAdapter extends RecyclerView.Adapter<TimesInglesAdapter.
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        TelaListaTimesBinding binding = TelaListaTimesBinding.inflate(layoutInflater, parent, false);
+        TelaClassificacaoInglesABinding binding = TelaClassificacaoInglesABinding.inflate(layoutInflater, parent, false);
 
         return new ViewHolder(binding);
     }
@@ -52,9 +53,9 @@ public class TimesInglesAdapter extends RecyclerView.Adapter<TimesInglesAdapter.
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
 
-        private TelaListaTimesBinding binding;
+        private TelaClassificacaoInglesABinding binding;
 
-        public ViewHolder(TelaListaTimesBinding binding) {
+        public ViewHolder(TelaClassificacaoInglesABinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
